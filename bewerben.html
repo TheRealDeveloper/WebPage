@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>LostBuild Network</title>
+        <!-- Bootstrap core CSS -->
+        <link href="assets/css/bootstrap.css" rel="stylesheet">
+        <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/936786380003106866/937304503663853608/static.png">
+		<!-- MyMC CSS -->
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+		<!-- FontAwesome CSS -->
+        <link href="assets/css/mymc.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-static-top" role="navigation">
+            <div class="imgtop">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <!-- You'll want to use a responsive image option so this logo looks good on devices - I recommend using something like retina.js (do a quick Google search for it and you'll find it) -->
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+                        <li class="active"><a href="rules.html"><i class="fa fa-info-circle"></i> Regeln</a></li>
+                        <li><a href="staff.html"><i class="fa fa-star"></i> Team</a></li>
+                        <li><a href="#"><i class="fa fa-check"></i> Comming Soon...</a></li>
+                        <li><a href="#"><i class="fa fa-shopping-cart"></i> Comming Soon...</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+                <div class="container px-5 my-5">
+                    <form id="contactForm" data-sb-form-api-token="c37b10a2-5341-4e6d-b2f7-9ead0594c105">
+                        <div class="mb-3">
+                            <label class="form-label" for="inGameName">InGame-Name</label>
+                            <input class="form-control" id="inGameName" type="text" placeholder="InGame-Name" data-sb-validations="required" />
+                            <div class="invalid-feedback" data-sb-feedback="inGameName:required">InGame-Name is required.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="alter">Alter</label>
+                            <input class="form-control" id="alter" type="text" placeholder="Alter" data-sb-validations="required" />
+                            <div class="invalid-feedback" data-sb-feedback="alter:required">Alter is required.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="eMailAdresse">E-Mail Adresse</label>
+                            <input class="form-control" id="eMailAdresse" type="email" placeholder="E-Mail Adresse" data-sb-validations="required,email" />
+                            <div class="invalid-feedback" data-sb-feedback="eMailAdresse:required">E-Mail Adresse is required.</div>
+                            <div class="invalid-feedback" data-sb-feedback="eMailAdresse:email">E-Mail Adresse Email is not valid.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="duWillstWerden">Du willst werden?</label>
+                            <select class="form-select" id="duWillstWerden" aria-label="Du willst werden?">
+                                <option value="OmletArcade">OmletArcade</option>
+                                <option value="YouTuber">YouTuber</option>
+                                <option value="Supporter">Supporter</option>
+                                <option value="Moderator">Moderator</option>
+                                <option value="Admin">Admin</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="deineBewerbung">Deine Bewerbung</label>
+                            <input class="form-control" id="deineBewerbung" type="text" placeholder="Deine Bewerbung" data-sb-validations="required" />
+                            <div class="invalid-feedback" data-sb-feedback="deineBewerbung:required">Deine Bewerbung is required.</div>
+                        </div>
+                        <div class="d-none" id="submitSuccessMessage">
+                            <div class="text-center mb-3">
+                                <div class="fw-bolder">Form submission successful!</div>
+                                <p>To activate this form, sign up at</p>
+                                <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                            </div>
+                        </div>
+                        <div class="d-none" id="submitErrorMessage">
+                            <div class="text-center text-danger mb-3">Error sending message!</div>
+                        </div>
+                        <div class="d-grid">
+                            <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+			<!-- /.container -->
+            <hr>
+            <footer>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul class="nav nav-pills bottom">
+                            <li class="pull-right">&copy; 2015 LostBuild Netzwerk</li>
+						</ul>
+                    </div>
+                </div>
+            </footer>
+        </div>        
+        <script src="assets/js/jquery-1.10.2.js"></script>
+        <script src="assets/js/bootstrap.js"></script>
+    </body>
+</html>
