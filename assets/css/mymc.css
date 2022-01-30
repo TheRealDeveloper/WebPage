@@ -90,7 +90,7 @@ body{
 .imgtop{
   background-image: url(../img/Hintergrund.gif);
   background-repeat: no-repeat;
-  background-size
+  background-size: contain;
 }
 
 /* Dropdown */
