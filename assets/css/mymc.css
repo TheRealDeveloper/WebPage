@@ -1,6 +1,6 @@
 /*!
- * LostBuild v0.1 (...)
- * Copyright 2022 LBWB.
+ * MyMC v0.1 (...)
+ * Copyright 2015 Xtrada Nederland.
  * Licensed under MIT (...)
  */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
@@ -85,12 +85,7 @@ body{
   width: 100px;
 }
 
-/*Bewerben*/
-
-.mb-3 {
-  border: #000;
-  border-radius: 0%;
-}
+/*Bewerben*´/
 
 /*IMGTOP*/
 
@@ -98,6 +93,7 @@ body{
   background-image: url(../img/Hintergrund.gif);
   background-repeat: no-repeat;
   background-size: contain;
+ 
 }
 
 /* Dropdown */
@@ -419,4 +415,8 @@ text-align: center;
 position: relative;
 display: block;
 padding: 10px 15px;
+}
+
+@media {
+
 }
